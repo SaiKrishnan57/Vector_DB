@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Generated database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Lab completion markers
+lab*.txt
+setup-complete.txt
+
+# ChromaDB persistence
+chroma_handbook_db/
+.chroma/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Test output
+test_output/
+*.log
